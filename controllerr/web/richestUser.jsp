@@ -18,7 +18,7 @@
     AccountService accountService = new AccountServiceImpl();
     TotalAccount totalAccount = accountService.findMaxTotalAccountSum();
     if (totalAccount != null) {
-        request.setAttribute("name", totalAccount.getOwner().getName() + " | " + totalAccount.getOwner().getSurname());
+        request.setAttribute("name", totalAccount.getOwner().getName() + " " + totalAccount.getOwner().getSurname());
         request.setAttribute("account", totalAccount.getSum());
     }
 %>
