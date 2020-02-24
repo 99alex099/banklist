@@ -1,0 +1,23 @@
+
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Lyosha', 'Churov');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Nikita', 'Salapura');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Vlad', 'Stepanov');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Yan', 'Marks');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Gena', 'Johnson');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Darya', 'Stepanova');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Diana', 'Glinnikova');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Varvara', 'Korneichuk');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Yury', 'Sudakov');
+INSERT INTO `accountdata`.`users` (`name`, `surename`) VALUES ('Maria', 'Gavrilova');
+
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('513', '5');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('513', '5');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('513', '5');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('214', '4');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('22', '3');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('24', '6');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('534', '1');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('513', '1');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('222', '3');
+INSERT INTO `accountdata`.`accounts` (`account`, `userId`) VALUES ('111', '3');
+
